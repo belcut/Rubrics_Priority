@@ -1,0 +1,1 @@
+﻿Server=(LocalDb)\MSSQLLocalDB;Database=modulator;Trusted_Connection=True;
