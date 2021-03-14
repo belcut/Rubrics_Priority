@@ -14,7 +14,7 @@
         <ListBox dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True" dd:DragDrop.DropHandler="{Binding}" x:Name="listBoxRubrics" HorizontalAlignment="Left" Height="550" Margin="33,66,0,0" VerticalAlignment="Top" Width="428" ItemTemplate="{DynamicResource RubricsTemplate}">
             <ListBox.Resources>
                 <DataTemplate x:Key="RubricsTemplate">
-                    <Grid Width="410" Height="25" Background="{Binding groupColor}">
+                    <Grid Width="410" Height="25" Background="{Binding groupColor}" >
                         <StackPanel Orientation="Horizontal">
                             <Label Content="{Binding groupId}" Width="50" HorizontalAlignment="Left" Margin="20,0,0,0"/>
                             <Label Content="{Binding groupName}" Width="250" HorizontalAlignment="Left"/>
