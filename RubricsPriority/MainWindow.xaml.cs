@@ -20,7 +20,7 @@ namespace RubricsPriority
 
             rubricsDataSet.GetData();
             listBoxRubrics.ItemsSource = rubricsDataSet.dataList;
-            listBoxRubrics.Items.Refresh();
+            
         
         }
 
@@ -31,7 +31,7 @@ namespace RubricsPriority
             { 
                 rubricsDataSet.dataList[i].groupPriority = (i+1)*10; 
             }
-            listBoxRubrics.Items.Refresh();
+            
         
         }
 

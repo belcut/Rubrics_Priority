@@ -11,7 +11,7 @@
         <Button x:Name="btLoad" Content="Загрузить данные" HorizontalAlignment="Left" Height="28" Margin="33,19,0,0" VerticalAlignment="Top" Width="128" Click="btLoad_Click"/>
         <Button x:Name="btnRebuild" Content="Перестроить приоритет" HorizontalAlignment="Left" Height="28" Margin="175,19,0,0" VerticalAlignment="Top" Width="146" Click="btnRebuild_Click"/>
         <Button x:Name="btnUpLoad" Content="Отправить в базу" HorizontalAlignment="Left" Height="28" Margin="331,19,0,0" VerticalAlignment="Top" Width="128" Click="btnUpLoad_Click"/>
-        <ListBox dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True" dd:DragDrop.DropHandler="{Binding}" x:Name="listBoxRubrics" HorizontalAlignment="Left" Height="550" Margin="33,66,0,0" VerticalAlignment="Top" Width="428" ItemTemplate="{DynamicResource RubricsTemplate}">
+        <ListBox dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True"  x:Name="listBoxRubrics" HorizontalAlignment="Left" Height="550" Margin="33,66,0,0" VerticalAlignment="Top" Width="428" ItemTemplate="{DynamicResource RubricsTemplate}">
             <ListBox.Resources>
                 <DataTemplate x:Key="RubricsTemplate">
                     <Grid Width="410" Height="25" Background="{Binding groupColor}" >
