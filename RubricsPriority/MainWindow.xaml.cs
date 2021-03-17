@@ -31,8 +31,9 @@ namespace RubricsPriority
             { 
                 rubricsDataSet.dataList[i].groupPriority = (i+1)*10; 
             }
-            
-        
+            listBoxRubrics.Items.Refresh();
+
+
         }
 
         private void btnUpLoad_Click(object sender, RoutedEventArgs e)
