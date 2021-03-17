@@ -15,7 +15,7 @@ namespace RubricsPriority
         
         }
 
-        private void btLoad_Click(object sender, RoutedEventArgs e)
+        private void btnLoad_Click(object sender, RoutedEventArgs e)
         {
 
             rubricsDataSet.GetData();
@@ -42,6 +42,8 @@ namespace RubricsPriority
             rubricsDataSet.CommitDB();
         
         }
+
+       
     }
 
 }
